@@ -1,0 +1,1277 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --green:#82D682;
+    --blck:#232323;
+    --orange:#CF5408;
+    --white:#F4F4F4;
+    --gray:#F0F0F0;
+    --secondgray:#FFFFFF;
+    --mainfont: "Oleo Script", system-ui;
+    --secondefont:"Dancing Script", cursive;
+    
+}
+.container{
+    width: 100%;
+    
+}
+.container .header .firstheader{
+    width: 100%;
+    background-color: var(--green);
+    display: flex;
+    justify-content: space-between;
+}
+.container .header .firstheader ul{
+    display: flex;
+    gap:10px;
+    list-style: none;
+    padding: 1vh 5% 1vh;
+    
+}
+.container .header .firstheader ul li a{
+    text-decoration: none;
+    color: var(--white);
+    font-size: 15px;
+    font-family: var(--secondefont);
+    text-align: center;
+}
+.container .header .firstheader ul li a:hover{
+    text-decoration: underline;
+}
+
+
+.container .header .firstheader ul .hline{
+    
+    width: 1px;
+    background-color: var(--white);
+    margin: 1vh 0 1vh;
+}
+.container .header .firstheader .icons {
+    display: flex;
+    color: var(--white);
+    gap:50px;
+    padding:2vh 5% 2vh;
+    font-size: 15px;    
+}
+.container .header .secondheader {
+    width: 100%;
+    background-color: var(--secondgray);
+    display: flex;
+    justify-content: space-between;
+    padding: 3vh 5% 3vh;
+    text-align: center;
+    
+}
+.container .header .secondheader span{
+    color: var(--orange);
+}
+.container .header .secondheader h1{
+    font-family: var(--mainfont);
+}
+.container .header .secondheader .information{
+    display: flex;
+    gap:20px;
+}
+.container .header .secondheader  .hline2{
+    width: 1px;
+    height: 40px;
+    background-color:var(--gray);
+}
+.container .header .secondheader h5{
+    color: #707274;
+    font-family: var(--secondefont);
+}
+.container .header .secondheader h4{
+    font-family: var(--mainfont);
+}
+.container .header .thirdheader {
+    width: 100%;
+    background-color: var(--blck);
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    height: 10vh;
+    
+}
+.container .header .thirdheader ul{
+    list-style: none;
+    display: flex;
+    padding-left: 5%;
+    gap:10px;
+    text-align: center;
+
+}
+.container .header .thirdheader li{
+padding: 3vh 5% 2vh;
+text-align: center;
+}
+.container .header .thirdheader ul a{
+    color: var(--white);
+    text-decoration: none;
+    font-family: var(--mainfont);
+}
+.container .header .thirdheader ul  .home {
+    background-color: var(--orange);
+}
+.container .header .thirdheader .quote{
+    color: var(--white);
+    padding: 1vh 2% 2vh;
+    font-family: var(--mainfont);
+    background-color: var(--orange);
+    border-radius: 15px;
+    margin: 1vh 3% 2vh;
+}
+.container .header .thirdheader ul .fa-angle-down {
+    
+    color: var(--white);
+    
+}
+.container .header .thirdheader ul li .icon{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    
+}
+.container .header .thirdheader ul li .icon .div1
+  {
+    position: relative;
+    background-color:blue;
+    
+}
+
+
+.container .header .thirdheader ul li
+ .blog{
+    background-color:rgb(52, 147, 230);
+    position: relative;
+    top: -40px;
+    width: 50px;
+    padding: 5%;
+    font-size: 13px;
+    z-index: -1;
+}
+.container .header .thirdheader ul li .blog h6{
+    padding: 1vh 2%;
+}
+
+
+.container .header .thirdheader ul .icon .div1 {
+    display: flex;
+    margin-bottom: 3vh;
+}
+
+
+.container .header .thirdheader ul .icon i{
+    padding: 5%;
+}
+
+.container .header .thirdheader ul .blog a{
+    color: var(--blck);
+}
+.container .header .thirdheader ul li:hover{
+    background-color: #CF5408;
+}
+.container .header .thirdheader ul li:hover .blog{
+    position: static;
+    background-color: white;
+}
+.container .content {
+    width: 100%;   
+}
+.container .content .banner{
+    background-image: url(../IMAGES/carousel-1.jpg);
+    background-size: 100% 100%;
+    color: var(--white);
+    font-family: var(--mainfont);
+    text-align: center;
+    padding: 30vh 0 20vh;
+    font-size: 20px;
+    text-transform: capitalize;
+    
+
+    
+}
+.container .content .banner h1{
+    font-size: 50px;
+    padding-bottom: 20px;
+    
+} 
+.container .content .banner .icons{
+    display: flex;
+    justify-content: space-around;
+}
+.container .content .banner .icons i{
+    font-size: 40px;
+    color: var(--orange);
+}
+.container .content .banner h5{
+    font-size: 15px;
+    padding-bottom: 20px;
+    
+}
+.container .content .banner  .book{
+    background-color: var(--orange);
+    color: var(--white);
+    border-radius: 10px;
+    font-family: var(--secondefont);
+}
+.container .content .banner  .learn{
+
+    background-color: var(--green);
+    color: var(--blck);
+    border-radius: 10px;
+    font-family: var(--secondefont);
+}
+
+.container .content .banner  .book , .learn{
+    padding: 5px 10px ;
+    border: transparent;
+    font-weight: bolder;
+
+}
+.container .content .banner  .learn:hover{
+    color: var(--white);
+}
+.container .content .form{
+    width: 100%;
+    background-color: var(--gray);
+    display: flex;
+    justify-content: space-around;
+}
+.container .content .form .input{
+    width: 30%;
+}
+.container .content .form .input form{
+    background-color:#FD6100;
+    display: flex;
+    flex-direction: column;
+    padding:4vh 1%;
+    margin-left: 5%;
+}
+.container .content .form .input form input,select{
+    margin: 4%;
+    border-radius: 5px;
+    padding: 8px 5px;
+    border: none;
+    font-family: var(--mainfont);
+    text-transform: capitalize;
+    
+}
+.container .content .form .input button{
+    background-color: var(--blck);
+    color:var(--white);
+    border-radius: 5px;
+    font-family: var(--mainfont);
+    border: none;
+    padding: 5px ;
+    margin: 4%;
+}
+.container .content .form .going{
+    width: 50%;
+}
+.container .content .form .going h4{
+    color: var(--green);
+    font-family: var(--mainfont);
+    margin:2vh 5%;
+    font-size: 20px;
+}
+.container .content .form .going h2{
+    color: var(--blck);
+    font-family: var(--mainfont);
+    font-size: 30px;
+}
+.container .content .form .going h2 span{
+    color:#FD6100;
+    
+}
+.container .content .form .going p{
+    color: grey;
+    font-family: var(--secondefont);
+    padding-bottom: 5%;
+}
+.container .content .form .going .parent{
+    display: flex;
+    gap:20px;
+}
+.container .content .form .parent i{
+    color: var(--green);
+}
+.container .content .form .parent h3{
+    color: var(--blck);
+    font-family: var(--mainfont);
+    display: inline-block;
+    padding:2vh 7%;
+}
+.container .content .about {
+    width: 100%;
+    font-family: var(--mainfont);
+    display: flex;
+    gap:30px;
+
+}
+.container .content .about .boarding{
+    padding:6vh 10%;
+}
+.container .content .about .boarding h3{
+    color: var(--green);
+}
+.container .content .about .boarding h2{
+    color: var(--blck);
+    padding-bottom: 2%;
+    padding-top: 1%;
+
+}
+.container .content .about .boarding span{
+    color: #FD6100;
+}
+.container .content .about .boarding p{
+    color: grey;
+    font-size: 12px;
+}
+.container .content .about .boarding button{
+    border:none;
+    background-color: #fd6100d2;
+    color: var(--white);
+    border-radius: 5px;
+    padding: 5px 5px;
+    margin-top: 1%;
+    font-family: var(--mainfont);
+}
+.container .content .about .boarding i{
+    color: var(--green);
+}
+.container .content .about .boarding .iconss{
+    display: flex;
+    padding: 1vh 0;
+}
+.container .content .about .img{
+    padding: 15vh 2%;
+    width: 30%;
+    
+    
+}
+.container .content .about .img .f{
+    width: 80%;
+    margin-bottom: -5px;
+    
+    
+}
+.container .content .about .img .s{
+    width: 39.5%;
+    padding: 0px;;
+}
+.container .content .ourservices{
+    width: 100%;
+    background-color: var(--gray);
+}
+.container .content .ourservices h4{
+    padding: 10vh 5%;
+    color: var(--green);
+    text-align: center;
+    font-family: var(--mainfont);
+    font-size: 20px;
+}
+.container .content .ourservices h2 span{
+    color: #FD6100;
+}
+.container .content .ourservices h2{
+    color: var(--blck);
+    font-family: var(--mainfont);
+    text-align: center;
+}
+.container .content .ourservices .grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 5vh 5%;
+    gap:10px;
+    /* margin-bottom: 5vh; */
+}
+.container .content .ourservices .grid .boarding ,.feedling,.grooming,.training,.exercise,.treatment{
+    background-color: var(--secondgray);
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px var(--green);
+    /* margin-bottom: 5vh; */
+}
+.container .content .ourservices .grid i{
+    color: var(--green);
+    padding: 2vh 5%;
+    
+}
+.container .content .ourservices .grid h3{
+    color: var(--blck);
+    font-family: var(--mainfont);
+    text-align: center;
+}
+.container .content .ourservices .grid p{
+    color: gray;
+    font-family: var(--mainfont);
+    font-size: 10px;
+    padding: 2vh 5%;
+}
+.container .content .ourservices .grid h6{
+    color: #FD6100;
+    text-align: center;
+    padding-bottom: 2vh;
+    font-family: var(--mainfont);
+
+}
+.container .content .special{
+    width: 100%;
+    background-color: var(--secondgray);
+}
+.container .content .special .img{
+    width: 50%;
+    padding-left: 10%;
+    padding-bottom: 1vh;
+    margin-top: 0;
+}
+.container .content .special .img img{
+    width: 80%;
+    height: 70vh;
+}
+.container .content .special{
+    display: flex;
+}
+.container .content .special .why h4{
+    padding: 10vh 5% 1vh;
+    color: var(--green);
+    font-family: var(--mainfont);
+    text-transform: capitalize;
+    font-size: 30px;
+
+}
+.container .content .special .why h2 span{
+    color: #FD6100;
+    font-family: var(--mainfont);
+    padding: 1vh 0 1vh 5% ;
+    text-transform: capitalize;
+    font-size:40px ;
+
+    
+}
+.container .content .special .why h2{
+    color: var(--blck);
+    font-family: var(--mainfont);
+    text-transform: capitalize;
+    font-size: 40px;
+}
+.container .content .special .why p{
+    color: grey;
+    text-transform: capitalize;
+    font-family: var(--mainfont);
+    padding: 2vh 10% 2vh 5%;
+    font-size: 14px;
+}
+.container .content .special .flex{
+    display: flex;
+    padding: 2vh 5%;
+    font-family: var(--mainfont);
+    gap: 25%;
+} 
+.container .content .special .flex i{
+    color: var(--green);
+    font-size: 20px;
+    /* display: inline-block; */
+}
+.container .content .special .flex  h3{
+    display: inline-block;
+}
+.container .content .pricing{
+    width: 100%;
+    background-color: var(--gray);
+    text-transform: capitalize;
+}
+.container .content .pricing h4{
+    color: var(--green);
+    padding: 10vh 0 2vh;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: var(--mainfont);
+    font-size: 25px;
+}
+.container .content .pricing h2{
+    color: var(--blck);
+    font-family: var(--mainfont);
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 5vh;
+}
+.container .content .pricing h2 span{
+    color: #FD6100;
+}
+.container .content .pricing .card .cardone .img{
+    background-image: url(../IMAGES/price-1.jpg);
+    background-size: 100% 100%;
+    height: 200px;
+    opacity: .9;
+}
+.container .content .pricing .card{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.container .content .pricing .card .cardtwo .img{
+    background-image: url(../IMAGES/price-2.jpg);
+    background-size: 100% 100%;
+    height: 200px;
+}
+.container .content .pricing .card .cardthree .img{
+    background-image: url(../IMAGES/price-3.jpg);
+    background-size: 100% 100%;
+    height: 200px;
+    opacity: .5;
+}
+.container .content .pricing .card .cardone
+,.container .content .pricing .card .cardtwo,
+.container .content .pricing .card .cardthree
+{
+    width: 25%;
+    text-transform: capitalize;
+    text-align: center;
+}
+.container .content .pricing .card .cardone .img h5,
+.container .content .pricing .card .cardthree .img h5
+{
+    padding: 10vh 5% 2vh;
+    font-family: var(--mainfont);
+    color: #FD6100;
+    font-size: 30px;
+}
+.container .content .pricing .card .cardone .img h6 ,
+.container .content .pricing .card .cardtwo .img h6 ,
+.container .content .pricing .card .cardthree .img h6
+{
+    font-family: var(--mainfont);
+    color: #F4F4F4;
+    font-size: 30px;
+}
+.container .content .pricing .card .cardone .details ,
+.container .content .pricing .card .cardtwo .details ,
+.container .content .pricing .card .cardthree .details
+{
+    background-color: #FFFFFF;
+}
+.container .content .pricing .card .cardone button,
+.container .content .pricing .card .cardthree button{
+    background-color:#FD6100;
+    color:#FFFFFF;
+    width: 100%;
+    font-family: var(--mainfont);
+    border: none;
+    padding: 2vh 0;
+    text-transform: capitalize;
+}
+.container .content .pricing .card .cardone .details h6,
+.container .content .pricing .card .cardthree .details h6,
+.container .content .pricing .card .cardtwo .details h6
+{
+    display: inline-block;
+    padding: 4vh 0 2vh;
+    font-size: 14px;
+}
+.container .content .pricing .card .cardone .details i,
+.container .content .pricing .card .cardtwo .details i,
+.container .content .pricing .card .cardthree .details i
+
+{
+    color: var(--green);
+}
+.container .content .pricing .card .cardone .details .fa-xmark ,
+.container .content .pricing .card .cardtwo .details .fa-xmark ,
+.container .content .pricing .card .cardthree .details .fa-xmark
+{
+    color: red;
+}
+.container .content .pricing .card .cardtwo button{
+    background-color:var(--green);
+    color:#FFFFFF;
+    width: 100%;
+    font-family: var(--mainfont);
+    border: none;
+    padding: 2vh 0;
+    text-transform: capitalize;
+}
+.container .content .pricing .card .cardtwo .img h5{
+    padding: 10vh 5% 2vh;
+    font-family: var(--mainfont);
+    color:var(--green);
+    font-size: 30px;
+}
+.container .content .member{
+    width: 100%;
+    text-transform: capitalize;
+}
+.container .content .member h5{
+    color: var(--green);
+    font-family: var(--mainfont);
+    text-align: center;
+    padding: 10vh 0 5vh;
+    font-size: 20px;
+}
+.container .content .member h2{
+    color: var(--blck);
+    text-align: center;
+    font-family: var(--mainfont);
+    font-size: 35px;
+}
+.container .content .member .img{
+    display: flex;
+    justify-content: space-around;
+    padding: 5vh 10% 8vh 10%;
+    gap: 20px;
+}
+.container .content .member .img img{
+    width: 75%;
+    border-radius: 5px 5px 0 0;
+}
+.container .content .member .img h4{
+    background-color: var(--gray);
+    color: var(--blck);
+    font-family: var(--mainfont);
+    text-align: center;
+}
+.container .content .member .img .firstmember,
+.container .content .member .img .secondmember,
+.container .content .member .img .thirdmember,
+.container .content .member .img .fourmember
+{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+}
+.container .content .member .img .firstmember .div1234 h4,
+.container .content .member .img .firstmember .div1234 h6,
+.container .content .member .img .secondmember .div1234 h4,
+.container .content .member .img .secondmember .div1234 h6,
+.container .content .member .img .thirdmember .div1234 h4,
+.container .content .member .img .thirdmember .div1234 h6,
+.container .content .member .img .fourmember .div1234 h4,
+.container .content .member .img .fourmember .div1234 h6
+
+{
+    padding: 1vh 0 0;
+    width: 75%;
+
+    
+}
+.container .content .member .img .firstmember .div1,
+.container .content .member .img .secondmember .div2,
+.container .content .member .img .thirdmember .div3,
+.container .content .member .img .fourmember .div4
+{
+    color:var(--orange);
+    background: var(--blck);
+    text-align: center;
+    position: relative;
+     top: -45px;
+    transform: rotateX(90deg);
+    transition: 2s;
+    width: 75%;
+}
+.container .content .member .img .firstmember i,
+.container .content .member .img .secondmember i,
+.container .content .member .img .thirdmember i,
+.container .content .member .img .fourmember i
+{
+    padding: 3vh 5% 3vh 5%;
+    font-size: 8px;
+}
+.container .content .member .img .firstmember i:hover,
+.container .content .member .img .secondmember i:hover,
+.container .content .member .img .thirdmember i:hover,
+.container .content .member .img .fourmember i:hover
+{
+    color: #F0F0F0;
+    background-color: #FD6100;
+    border-radius: 50%;
+}
+.container .content .member .img .firstmember:hover .div1,
+.container .content .member .img .secondmember:hover .div2,
+.container .content .member .img .thirdmember:hover .div3,
+.container .content .member .img .fourmember:hover .div4
+{
+    transform-origin: center;
+    transform: rotateX(0deg);
+}
+.container .content .member .img h6{
+    background-color: var(--gray);
+    color: grey;
+    font-family: var(--mainfont);
+    text-align: center;
+}
+.container .content .member span{
+    color: #FD6100;
+    font-size: 35px;
+    font-family: var(--mainfont);
+}
+.container .content .test{
+    width: 100%;
+    text-transform: capitalize;
+    background-color: var(--gray);
+}
+.container .content .test h5{
+    color: var(--green);
+    font-family: var(--mainfont);
+    font-size: 30px;
+    padding: 10vh 0 5vh;
+    text-align: center;
+}
+.container .content .test h2{
+    color: var(--blck);
+    font-family: var(--mainfont);
+    font-size: 40px;
+    text-align: center;
+
+}
+.container .content .test h2 span{
+    color: #FD6100;
+}
+.container .content .test .client .firstclient, 
+.container .content .test .client .thirdclient, 
+.container .content .test .client .secondclient,
+.container .content .test .client .fourclient {
+
+    display: flex;
+    width: 20%;
+}
+.container .content .test .client {
+    display: flex;
+    gap: 20px;
+    padding: 4vh 0;
+    padding: 3vh 5% 3vh 5%;
+    
+    
+}
+.container .content .test .firstclient,
+.container .content .test .secondclient,
+.container .content .test .thirdclient,
+.container .content .test .fourclient
+{
+    background-color:white;
+    box-shadow: 3px 3px 3px var(--green);
+    font-family: var(--mainfont);   
+}
+.container .content .test .client p{
+    color:#707274;
+    font-size: 10px;
+    text-align: center;
+    padding: 1vh 5%;
+}
+.container .content .test .client h4{
+    color: var(--blck);
+    font-size: 20px;
+    text-align: center;
+    padding: 2vh 0;
+    
+}
+.container .content .test .client h6{
+    color: #707274;
+    padding-right: 90px;
+}
+.container .content .test .icons{
+    text-align: center;
+    color: var(--green);
+    padding: 5vh 0 10vh;
+    font-size: 12px;
+}
+.container .content .test .client  img{
+    width: 75px;
+    height: 75px;
+}
+.container .content .updat{
+    width: 100%;
+    background-color: var(--secondgray);
+}
+.container .content .updat h6{
+    color: var(--green);
+    padding: 10vh 0 5vh;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: var(--mainfont);
+}
+.container .content .updat h2{
+    color: var(--blck);
+    font-family: var(--mainfont);
+    text-align: center;
+    text-transform: capitalize;
+    /* font-size: 30px; */
+}
+.container .content .updat span{
+    color: #FD6100;
+}
+.container .content .updat .htwo{
+    display: flex;
+    gap: 20px;
+}
+.container .content .updat .icons{
+    display: flex;
+    gap: 20px;
+}
+.container .content .updat .immges{
+    display: flex;
+    padding: 5vh 10%;
+    gap: 20px;  
+    flex-wrap: wrap; 
+}
+.container .content .updat .immges .firstimg img,
+.container .content .updat .immges .secondimg img,
+.container .content .updat .immges .thirdimg img
+
+{
+    width: 100%;
+    height: 200px;
+    border-radius: 3px 3px 0px 0px;
+    
+}
+.container .content .updat .immges .firstimg .htwo h2{
+    font-size: 12px;
+    padding: 1vh 2%;
+}
+.container .content .updat .immges .secondimg .htwo h2{
+    font-size: 12px;
+    padding: 1vh 2%;
+}
+.container .content .updat .immges .thirdimg .htwo h2{
+font-size: 12px;
+padding: 1vh 2%;
+}
+.container .content .updat .immges .icons{
+    color: #707274;
+    padding: 2vh 3% 1vh 3%;
+    font-family: var(--mainfont);
+    font-size: 12px;
+}
+.container .content .updat .immges p{
+    color: #707274;
+    padding: 3vh 10% 3vh 0;
+    font-size: 12px;
+
+}
+.container .content .updat .immges h5{
+    color: #FD6100;
+    text-align: center;
+}
+.container .content .updat .immges .firstimg ,
+.container .content .updat .immges .secondimg ,
+.container .content .updat .immges .thirdimg
+{
+    background-color: var(--gray);
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px var(--green);
+    font-family: var(--mainfont);
+    text-transform: capitalize;
+    text-align: center;
+}
+.footer {
+    width: 100%;
+    background-color: #1F1F1F;
+    text-transform: capitalize;
+    font-family: var(--mainfont);
+}
+.footer .pet  h3 {
+    color:#F0F0F0;
+    font-size: 30px;
+    padding-bottom: 2vh;
+
+
+}
+.footer .pet h3 span{
+    color:#FD6100;
+}
+.footer .pet p{
+    color: #F0F0F0;
+    font-size: 14px;
+}
+.footer  .get h3{
+    color: #FD6100;
+    font-size: 25px;
+    padding-bottom: 2vh;
+}
+.footer  .get .divdiv{
+    color: #F0F0F0;
+    font-size: 12px;
+    
+}
+.footer .get .divdiv h4{
+    display: inline-block;
+    padding: 0 2% 2vh 2%;
+}
+.footer .get .icon i{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 5%;
+}
+.footer .get .icon{
+    color: #F0F0F0;
+
+}
+.footer .links h3{
+    color: #FD6100;
+    padding-bottom: 2vh;
+    font-size: 25px;
+}
+.footer .links .divtwo{
+color: #F0F0F0;
+}
+.footer .links .divtwo h5{
+    padding-bottom: 2vh;
+    font-size: 17px;
+}
+.footer .news h4{
+    color: #FD6100;
+    font-size: 25px;
+    padding-bottom: 3vh;
+    
+}
+.footer .news .input{
+    display: flex;
+    flex-direction: column;
+}
+.footer .news .input input {
+    color: #F0F0F0;
+    font-family: var(--mainfont);
+    text-transform: capitalize;
+    width: 100%;
+    margin-bottom: 2vh;
+    padding: 1vh 5%;
+    border-radius: 8px;
+    
+}
+.footer .news .input button{
+    background-color: var(--orange);
+    padding: 1vh 5%;
+    border-radius: 8px;
+    font-family: var(--mainfont);
+    color: #F0F0F0;
+    width: 100%;
+    font-size: 18px;
+    
+}
+ .design {
+   background-color: #000000; 
+   color: #F0F0F0;
+   font-family: var(--mainfont);
+   text-transform: capitalize;
+   display: flex;
+   justify-content: space-between;
+   padding: 5vh 5%;
+   font-size: 20px;
+}
+.footer {
+    display: grid;
+    grid-template-columns:2fr 1fr 1fr 1fr;
+    justify-content: space-around;
+    padding: 10vh 5% 20vh 5%;
+    gap: 30px;
+}
+.design .divthree{
+    display: flex;
+    gap: 10px;
+}
+.container .fa-circle-up{
+    color: #FD6100;
+    font-size: 30px;
+    position: fixed;
+    top :90vh;
+    left:97%
+}
+.container .header #chek,
+.container .header label i
+{
+    display: none;
+}
+@media (max-width:1000px) {
+    .container .content .updat .immges .firstimg  .htwo h2,
+    .container .content .updat .immges  .secondimg .htwo h2,
+    .container .content .updat .immges  .thirdimg .htwo h2
+     
+    
+    
+    {
+
+        font-size: 10px;
+    }
+     .container .content .test .client .firstclient .divtwo h4,
+    .container .content .test .client .secondclient .divtwo h4,
+    .container .content .test .client .thirdclient .divtwo h4,
+    .container .content .test .client .fourclient .divtwo h4
+
+    {
+        font-size: 12px;
+    } 
+}
+
+@media (max-width:900px) {
+    .container .content .updat .immges .htwo,
+.container .content .updat .icons
+
+    {
+        gap:10px;
+    }
+    .container .content .test .client .firstclient .divtwo h4,
+    .container .content .test .client .secondclient .divtwo h4,
+    .container .content .test .client .thirdclient .divtwo h4,
+    .container .content .test .client .fourclient .divtwo h4
+
+    {
+        font-size: 8px;
+    }
+    .design .privacy h4,.design .divthree{
+    font-size: 15px;
+ }   
+
+       
+    
+}
+
+@media (max-width:800px) {
+    .container .content .updat .immges .firstimg  .htwo h2,
+    .container .content .updat .immges  .secondimg .htwo h2,
+    .container .content .updat .immges  .thirdimg .htwo h2
+    
+    
+    {
+
+        font-size: 10px;
+    }
+    .container .content .test .client .firstclient .divtwo h4,
+    .container .content .test .client .secondclient .divtwo h4,
+    .container .content .test .client .thirdclient .divtwo h4,
+    .container .content .test .client .fourclient .divtwo h4
+
+    {
+        font-size: 10px;
+        padding-right: 60px;
+    }   
+    
+}
+@media(max-width:750px){
+    .container .header .thirdheader {
+        background-color:gray;
+        flex-direction: column;
+        align-items: flex-start;
+        transition: 1s;
+        transform: rotateY(90deg);
+        transform-origin: top;
+        gap:2px;
+        width: 20%;
+        
+    }
+.container .header .thirdheader ul{
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+.container .header label i{
+    display: block;
+    padding-left: 20px;
+    font-size: 30px;
+    color: #FD6100;
+   
+}
+.container .header #chek:checked + .thirdheader 
+{
+    transform: rotateY(0deg);
+}
+.container .content .banner .icons i{
+    display: none;
+}
+.container .header .thirdheader ul li{
+
+    border-bottom: 1px solid chocolate;
+}
+}
+@media(max-width:650px){
+    .container .content .test .client{
+        flex-wrap: wrap;
+    }
+    .container .content .test .client .firstclient,
+    .container .content .test .client .secondclient,
+    .container .content .test .client .thirdclient,
+    .container .content .test .client .fourclient
+    {
+       width: 40%;
+    }
+    .container .content .updat .immges .firstimg,
+    .container .content .updat .immges .secondimg,
+    .container .content .updat .immges .thirdimg
+    {
+        width: 50%;
+    }
+}
+@media(max-width:550px){
+    .container .content .special {
+        display: block;
+    }
+.container .fa-circle-up
+{
+    font-size: 17px;
+}
+.footer{
+    grid-template-columns: 2fr 1fr ;
+}
+.design .privacy h4,
+.design .divthree h4
+{
+    font-size: 10px;
+}
+}
+@media(max-width:450px){
+  .container .header .secondheader h1{
+    font-size: 17px;
+  } 
+  .container .header .secondheader .information h4{
+    font-size: 12px;
+  }
+  .container .content .banner .icons h1{
+    font-size: 20px;
+  } 
+  .container .content .banner  h5{
+    font-size: 10px;
+  }
+.container .content .form .going .parent
+{
+    display: block;
+}
+.container .content .form .input
+{
+    width: 35%;
+}
+.container .content .why .flex{
+    display: block;
+}
+.container .content .pricing .card .cardone,
+.container .content .pricing .card .cardtwo,
+.container .content .pricing .card .cardthree
+
+{
+width: 90%;
+}
+
+}
+@media(max-width:350px){
+    .container .header .secondheader{
+        display: block;
+    }
+.container .content .form .going h4{
+    font-size: 15px;
+}
+.container .content .form .going h2{
+    font-size: 15px;
+}
+.container .content .about h2{
+    font-size: 20px;
+}
+.container .content .ourservices .grid {
+    grid-template-columns:repeat(1,1fr) ;
+}
+.container .content .special .why h2{
+    font-size: 20px;
+}
+.container .content .special .why h2 span{
+    font-size: 25px;
+}
+.container .content .pricing h2{
+    font-size: 25px;
+}
+.container .content .member h2{
+    font-size: 20px;
+}
+.container .content .member h2 span{
+font-size: 25px;
+}
+.container .content .test .client .firstclient,
+    .container .content .test .client .secondclient,
+    .container .content .test .client .thirdclient,
+    .container .content .test .client .fourclient
+    {
+        width: 70%;
+    }
+.container .content .updat .immges .firstimg,
+    .container .content .updat .immges .secondimg,
+    .container .content .updat .immges .thirdimg
+    {
+        width: 90%;
+    }
+    .footer {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
