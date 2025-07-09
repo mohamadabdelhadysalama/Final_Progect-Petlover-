@@ -23,6 +23,7 @@
     background-color: var(--green);
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .container .header .firstheader ul{
     display: flex;
@@ -622,6 +623,7 @@ text-align: center;
     justify-content: space-around;
     padding: 5vh 10% 8vh 10%;
     gap: 20px;
+    flex-wrap: wrap;
 }
 .container .content .member .img img{
     width: 75%;
@@ -743,6 +745,7 @@ text-align: center;
     gap: 20px;
     padding: 4vh 0;
     padding: 3vh 5% 3vh 5%;
+    flex-wrap: wrap;
     
     
 }
@@ -985,7 +988,7 @@ color: #F0F0F0;
 {
     display: none;
 }
-@media (max-width:1000px) {
+@media (max-width:1050px) {
     .container .content .updat .immges .firstimg  .htwo h2,
     .container .content .updat .immges  .secondimg .htwo h2,
     .container .content .updat .immges  .thirdimg .htwo h2
@@ -1006,7 +1009,7 @@ color: #F0F0F0;
     } 
 }
 
-@media (max-width:900px) {
+@media (max-width:950px) {
     .container .content .updat .immges .htwo,
 .container .content .updat .icons
 
@@ -1019,7 +1022,8 @@ color: #F0F0F0;
     .container .content .test .client .fourclient .divtwo h4
 
     {
-        font-size: 8px;
+        font-size: 12px;
+        padding-right: 15%;
     }
     .design .privacy h4,.design .divthree{
     font-size: 15px;
@@ -1027,6 +1031,18 @@ color: #F0F0F0;
 
        
     
+}
+@media (max-width:900px){
+    .container .content .test .client .firstclient,
+    .container .content .test .client .secondclient,
+    .container .content .test .client .thirdclient,
+    .container .content .test .client .fourclient
+
+
+{
+width: 40%;
+margin: 0 3%; 
+}
 }
 
 @media (max-width:800px) {
@@ -1047,7 +1063,27 @@ color: #F0F0F0;
     {
         font-size: 10px;
         padding-right: 60px;
-    }   
+    }
+    .container .content .about
+    {
+        display: block;
+    }
+    .container .content .about .img{
+        width: 50%;
+        text-align: center;
+        padding-left: 5%;
+
+    }
+.container .fa-circle-up
+    {
+        font-size: 20px;
+    }
+    .container .content .banner .icons h1{
+    font-size: 30px;
+  } 
+  .container .content .banner  h5{
+    font-size: 20px;
+  }
     
 }
 @media(max-width:750px){
@@ -1086,6 +1122,7 @@ color: #F0F0F0;
     border-bottom: 1px solid chocolate;
 }
 }
+
 @media(max-width:650px){
     .container .content .test .client{
         flex-wrap: wrap;
@@ -1102,6 +1139,29 @@ color: #F0F0F0;
     .container .content .updat .immges .thirdimg
     {
         width: 50%;
+    }
+    .container .content .banner .icons h1{
+    font-size: 23px;
+  } 
+  .container .content .banner  h5{
+    font-size: 15px;
+  }
+}
+@media (max-width:600px){
+    .container .content .ourservices .grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .container .content .special 
+    {
+        display: block;
+    }
+    .container .content .member .img .firstmember,
+    .container .content .member .img .secondmember,
+    .container .content .member .img .thirdmember,
+    .container .content .member .img .fourmember
+    
+    {
+        width: 40%;
     }
 }
 @media(max-width:550px){
@@ -1120,6 +1180,31 @@ color: #F0F0F0;
 {
     font-size: 10px;
 }
+.container .content .pricing .card .cardone,
+.container .content .pricing .card .cardtwo,
+.container .content .pricing .card .cardthree
+
+{
+width: 60%;
+}
+
+}
+@media (max-width:530px){
+    .container .content .form .going .parent
+{
+    display: block;
+}
+.container .header .firstheader{
+    display: block;
+    text-align: center;
+}
+.container .content .banner .icons h1{
+    font-size: 21px;
+  } 
+  .container .content .banner  h5{
+    font-size: 12px;
+  }
+
 }
 @media(max-width:450px){
   .container .header .secondheader h1{
@@ -1154,7 +1239,7 @@ width: 90%;
 }
 
 }
-@media(max-width:350px){
+@media(max-width:450px){
     .container .header .secondheader{
         display: block;
     }
@@ -1200,6 +1285,11 @@ font-size: 25px;
     }
     .footer {
         grid-template-columns: 1fr;
+    }
+}
+@media (max-width:400px){
+    .container .fa-circle-up{
+        left: 92%;
     }
 }
 
